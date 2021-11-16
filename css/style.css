@@ -60,9 +60,17 @@ body {
     cursor: pointer;
 }
 
+#fevicon:hover {
+    filter: invert(1);   
+}
+
 #title {
     font-size: 12px;
     cursor: pointer;
+}
+
+#title:hover {
+        color: red;
 }
 
 .btn {
