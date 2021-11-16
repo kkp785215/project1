@@ -1,0 +1,117 @@
+body {
+
+    margin: 0px;
+    padding: 0px;
+    background: url(../img/mainbg.jpg);
+    color: white;
+    font-family: 'Cabin', sans-serif;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.mid {
+    width: 400px;
+    padding: 0px;
+    margin: 0px auto;
+    margin-top: 10px;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.header {
+    text-align: center;
+    padding: 5px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+    margin: 0px 10px;
+}
+
+.navbar {
+    margin: 0px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+#fevicon {
+    width: 120px;
+    cursor: pointer;
+}
+
+#title {
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn {
+    color: white;
+    background-color: #3a235e;
+    margin: 0px 10px;
+    padding: 2px 9px;
+    border-radius: 12px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn.active {
+    background-color: red;
+}
+
+.container {
+    border: 2px solid white;
+    border-radius: 11px;
+    margin: 90px 56px;
+    padding: 36px 43px;
+    padding-bottom: 59px;
+    width: 33%;
+}
+
+.form-group input {
+    text-align: center;
+    border: 2px solid black;
+    width: 330px;
+    border-radius: 6px;
+    padding: 7px;
+    font-size: 17px;
+    margin: 7px auto;
+    display: block;
+    font-family: 'Cabin', sans-serif;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container .btn {
+    width: 77%;
+    border-radius: 6px;
+    background-color: black;
+    padding: 5px;
+    border-color: white;
+    margin: auto;
+    margin-top: 15px;
+    display: block;
+}
